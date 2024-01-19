@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #051551;
+    color: #e76c0e;
+    padding: 20px;
+    text-align: center;
+  }
+  .image
+  {
+      position: relative;
+      left:1000px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  .hello
+  {
+    color: #0b0b0b;
+    position: absolute;
+    font-size: 25px;
+    left:250px;
+    top:290px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .name
+  {
+    position: absolute;
+    font-size: 25px;
+    left:450px;
+    top:290px;
+    color: #e76c0e;
+    font-family:'Times New Roman', Times, serif;
+  }
+  .para
+  {
+    position: absolute;
+    font-size: 23px;
+    top:370px;
+    left:100px;
+
+  }
+  .rectangle
+  {
+    height: 50px;
+    width: 130px;
+    position: absolute;
+    color:#ffffff;
+    background-color: #ff4500;
+    top:500px;
+    left:370px;
+    border-radius: 30px;
+    
+  }
+  .rectangle:hover
+{
+   background-color: #ff6347;
+   transform: scale(1.1);
+}
+  .rectangle h2
+  {
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    left:20px;
+    top:-10px;
+  }
+  section {
+    margin-bottom: 30px;
+  }
+  /* Add more CSS to style your portfolio elements */
+  
